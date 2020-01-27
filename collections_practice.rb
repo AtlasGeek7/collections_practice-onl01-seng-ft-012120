@@ -30,3 +30,7 @@ def add_s(arr)
   return arr.collect { |w| (arr[1] === w) ? w : w + 's'}
 end
 
+def sort_array_char_count(arr)
+  arr.sort { |left, right|
+    left.length <=> right.length }
+end
