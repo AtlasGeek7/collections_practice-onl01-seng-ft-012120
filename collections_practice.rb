@@ -14,10 +14,9 @@ end
 
 def sum_array(arr)
   sum = 0
-  array.each do |num|
-    sum+=num
-  end
-  sum
+  arr.each { |x| sum += x }
+  return sum
+end
 
 def find_a(arr)
   arr.find_all { |w| w[0] === "a" }
