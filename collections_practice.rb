@@ -23,5 +23,5 @@ def find_a(arr)
 end
 
 def kesha_maker(arr)
-  arr.each { |i| i[2] = "$" }
+  arr.each { |i| i[2] = '$' }
 end
