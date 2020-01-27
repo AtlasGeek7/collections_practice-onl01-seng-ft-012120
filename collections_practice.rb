@@ -29,3 +29,4 @@ end
 def add_s(arr)
   return arr.collect { |w| (arr[1] === w) ? w : w + 's'}
 end
+
