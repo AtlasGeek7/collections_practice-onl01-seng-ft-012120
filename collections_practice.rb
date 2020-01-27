@@ -5,7 +5,5 @@ def sort_array_asc(arr)
 end
 
 def sort_array_desc(array)
-  array.sort { | left, right|
-    right <=> left
-  end
+  array.sort.reverse
 end
