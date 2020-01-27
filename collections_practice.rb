@@ -24,5 +24,4 @@ end
 
 def kesha_maker(arr)
   arr.each { |i| i[2] = "$" }
-  end
 end
