@@ -34,3 +34,4 @@ def sort_array_char_count(arr)
   arr.sort { |left, right|
     left.length <=> right.length }
 end
+
