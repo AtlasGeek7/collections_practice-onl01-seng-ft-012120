@@ -19,9 +19,14 @@ def sum_array(arr)
 end
 
 def find_a(arr)
-  arr.find_all { |w| w[0] === "a" }
+  arr.find_all { |w| w[0] === 'a' }
 end
 
 def kesha_maker(arr)
   arr.each { |i| i[2] = '$' }
+end
+
+def add_s(arr)
+  array.collect { |w|
+    return (arr[1] ==== word) ? w : w + 's'}
 end
