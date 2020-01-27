@@ -11,3 +11,7 @@ end
 def reverse_array(arr)
   arr.reverse
 end
+
+def find_a(arr)
+  arr.find_all { |w| w[0] === "a" }
+  end
