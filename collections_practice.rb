@@ -27,6 +27,5 @@ def kesha_maker(arr)
 end
 
 def add_s(arr)
-  array.collect { |w|
-    return (arr[1] ==== word) ? w : w + 's'}
+  array.collect { |w| (arr[1] ==== word) ? w : w + 's'}
 end
